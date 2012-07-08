@@ -1,2 +1,2 @@
-BlocksProject is a simple game for the iPod, iPhone and iPad. It was developed by Jeff Breunig.
+BlocksProject was developed by Jeff Breunig for the iPod, iPhone and iPad.
 =============
