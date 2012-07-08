@@ -13,6 +13,17 @@
 		980DFC0D15AA19FC0070950B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 980DFC0B15AA19FC0070950B /* InfoPlist.strings */; };
 		980DFC0F15AA19FC0070950B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 980DFC0E15AA19FC0070950B /* main.m */; };
 		980DFC1315AA19FC0070950B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 980DFC1215AA19FC0070950B /* AppDelegate.m */; };
+		980DFC2415AA1ABC0070950B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 980DFC1C15AA1ABC0070950B /* GameViewController.m */; };
+		980DFC2515AA1ABC0070950B /* GameViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 980DFC1D15AA1ABC0070950B /* GameViewController~ipad.xib */; };
+		980DFC2615AA1ABC0070950B /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 980DFC1E15AA1ABC0070950B /* GameViewController.xib */; };
+		980DFC2715AA1ABC0070950B /* PauseScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 980DFC2015AA1ABC0070950B /* PauseScreenViewController.xib */; };
+		980DFC2815AA1ABC0070950B /* PauseScreenViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 980DFC2115AA1ABC0070950B /* PauseScreenViewController~ipad.xib */; };
+		980DFC2915AA1ABC0070950B /* PauseScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 980DFC2315AA1ABC0070950B /* PauseScreenViewController.m */; };
+		980DFC3615AA1B100070950B /* GameDirectionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 980DFC3415AA1B100070950B /* GameDirectionsView.xib */; };
+		980DFC3715AA1B100070950B /* GameDirectionsView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 980DFC3515AA1B100070950B /* GameDirectionsView~ipad.xib */; };
+		980DFC3C15AA1B370070950B /* GameSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 980DFC3915AA1B370070950B /* GameSquareView.m */; };
+		980DFC3D15AA1B370070950B /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 980DFC3B15AA1B370070950B /* GradientButton.m */; };
+		980DFC3F15AA1B520070950B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980DFC3E15AA1B520070950B /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,27 @@
 		980DFC0215AA19FB0070950B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		980DFC0415AA19FB0070950B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		980DFC0615AA19FB0070950B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		980DFC0A15AA19FC0070950B /* BlocksProject-Info.plist */ = {isa = PBXFileReference; path = "BlocksProject-Info.plist"; sourceTree = "<group>"; };
+		980DFC0A15AA19FC0070950B /* BlocksProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocksProject-Info.plist"; sourceTree = "<group>"; };
 		980DFC0C15AA19FC0070950B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		980DFC0E15AA19FC0070950B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		980DFC1015AA19FC0070950B /* BlocksProject-Prefix.pch */ = {isa = PBXFileReference; path = "BlocksProject-Prefix.pch"; sourceTree = "<group>"; };
-		980DFC1115AA19FC0070950B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		980DFC1015AA19FC0070950B /* BlocksProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlocksProject-Prefix.pch"; sourceTree = "<group>"; };
+		980DFC1115AA19FC0070950B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		980DFC1215AA19FC0070950B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		980DFC1C15AA1ABC0070950B /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		980DFC1D15AA1ABC0070950B /* GameViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GameViewController~ipad.xib"; sourceTree = "<group>"; };
+		980DFC1E15AA1ABC0070950B /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		980DFC1F15AA1ABC0070950B /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		980DFC2015AA1ABC0070950B /* PauseScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PauseScreenViewController.xib; sourceTree = "<group>"; };
+		980DFC2115AA1ABC0070950B /* PauseScreenViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PauseScreenViewController~ipad.xib"; sourceTree = "<group>"; };
+		980DFC2215AA1ABC0070950B /* PauseScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseScreenViewController.h; sourceTree = "<group>"; };
+		980DFC2315AA1ABC0070950B /* PauseScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseScreenViewController.m; sourceTree = "<group>"; };
+		980DFC3415AA1B100070950B /* GameDirectionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameDirectionsView.xib; sourceTree = "<group>"; };
+		980DFC3515AA1B100070950B /* GameDirectionsView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GameDirectionsView~ipad.xib"; sourceTree = "<group>"; };
+		980DFC3815AA1B370070950B /* GameSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSquareView.h; sourceTree = "<group>"; };
+		980DFC3915AA1B370070950B /* GameSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSquareView.m; sourceTree = "<group>"; };
+		980DFC3A15AA1B370070950B /* GradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientButton.h; sourceTree = "<group>"; };
+		980DFC3B15AA1B370070950B /* GradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientButton.m; sourceTree = "<group>"; };
+		980DFC3E15AA1B520070950B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980DFC3F15AA1B520070950B /* QuartzCore.framework in Frameworks */,
 				980DFC0315AA19FB0070950B /* UIKit.framework in Frameworks */,
 				980DFC0515AA19FB0070950B /* Foundation.framework in Frameworks */,
 				980DFC0715AA19FB0070950B /* CoreGraphics.framework in Frameworks */,
@@ -45,6 +72,7 @@
 		980DFBF315AA19FB0070950B = {
 			isa = PBXGroup;
 			children = (
+				980DFC3E15AA1B520070950B /* QuartzCore.framework */,
 				980DFC0815AA19FB0070950B /* BlocksProject */,
 				980DFC0115AA19FB0070950B /* Frameworks */,
 				980DFBFF15AA19FB0070950B /* Products */,
@@ -72,8 +100,9 @@
 		980DFC0815AA19FB0070950B /* BlocksProject */ = {
 			isa = PBXGroup;
 			children = (
-				980DFC1115AA19FC0070950B /* AppDelegate.h */,
-				980DFC1215AA19FC0070950B /* AppDelegate.m */,
+				980DFC1B15AA1A7A0070950B /* Views */,
+				980DFC1A15AA1A670070950B /* View Controllers */,
+				980DFC1915AA1A520070950B /* Classes */,
 				980DFC0915AA19FC0070950B /* Supporting Files */,
 			);
 			path = BlocksProject;
@@ -88,6 +117,43 @@
 				980DFC1015AA19FC0070950B /* BlocksProject-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		980DFC1915AA1A520070950B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				980DFC1115AA19FC0070950B /* AppDelegate.h */,
+				980DFC1215AA19FC0070950B /* AppDelegate.m */,
+				980DFC3815AA1B370070950B /* GameSquareView.h */,
+				980DFC3915AA1B370070950B /* GameSquareView.m */,
+				980DFC3A15AA1B370070950B /* GradientButton.h */,
+				980DFC3B15AA1B370070950B /* GradientButton.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		980DFC1A15AA1A670070950B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				980DFC1F15AA1ABC0070950B /* GameViewController.h */,
+				980DFC1C15AA1ABC0070950B /* GameViewController.m */,
+				980DFC1E15AA1ABC0070950B /* GameViewController.xib */,
+				980DFC1D15AA1ABC0070950B /* GameViewController~ipad.xib */,
+				980DFC2215AA1ABC0070950B /* PauseScreenViewController.h */,
+				980DFC2315AA1ABC0070950B /* PauseScreenViewController.m */,
+				980DFC2015AA1ABC0070950B /* PauseScreenViewController.xib */,
+				980DFC2115AA1ABC0070950B /* PauseScreenViewController~ipad.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		980DFC1B15AA1A7A0070950B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				980DFC3415AA1B100070950B /* GameDirectionsView.xib */,
+				980DFC3515AA1B100070950B /* GameDirectionsView~ipad.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +208,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				980DFC0D15AA19FC0070950B /* InfoPlist.strings in Resources */,
+				980DFC2515AA1ABC0070950B /* GameViewController~ipad.xib in Resources */,
+				980DFC2615AA1ABC0070950B /* GameViewController.xib in Resources */,
+				980DFC2715AA1ABC0070950B /* PauseScreenViewController.xib in Resources */,
+				980DFC2815AA1ABC0070950B /* PauseScreenViewController~ipad.xib in Resources */,
+				980DFC3615AA1B100070950B /* GameDirectionsView.xib in Resources */,
+				980DFC3715AA1B100070950B /* GameDirectionsView~ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +226,10 @@
 			files = (
 				980DFC0F15AA19FC0070950B /* main.m in Sources */,
 				980DFC1315AA19FC0070950B /* AppDelegate.m in Sources */,
+				980DFC2415AA1ABC0070950B /* GameViewController.m in Sources */,
+				980DFC2915AA1ABC0070950B /* PauseScreenViewController.m in Sources */,
+				980DFC3C15AA1B370070950B /* GameSquareView.m in Sources */,
+				980DFC3D15AA1B370070950B /* GradientButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
