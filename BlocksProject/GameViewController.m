@@ -392,9 +392,7 @@
 -(void)assignBlocksToTowers {
     int y,yBaseCoord, blockHeight;;
     float x, addX;
-    
-    NSLog(@"set count = %d", self.blockSet.count);
-    
+
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
         yBaseCoord = BLOCK_BASE_Y_COORD_IPAD;
         x = STARTING_X_COORD_IPAD;

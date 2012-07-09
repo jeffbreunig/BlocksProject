@@ -335,6 +335,7 @@
 				980DFC1815AA19FC0070950B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
